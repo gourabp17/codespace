@@ -12,13 +12,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AwsHomeComponent } from './aws/home/home.component';
+import { Su4dzQgr1yComponent } from './aws/su4dz-qgr1y/su4dz-qgr1y.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AwsHomeComponent
+    AwsHomeComponent,
+    Su4dzQgr1yComponent,
   ],
   imports: [
     BrowserModule,

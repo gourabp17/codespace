@@ -1,1 +1,17 @@
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.responsive {
+    position: relative;
+    padding-bottom: 56.2%;
+    height: 0;
+    margin: 10px 0 25px 0;
+    overflow: hidden;
+  }
+  
+  .responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
