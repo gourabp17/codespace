@@ -8,6 +8,8 @@ import {
   MatFormFieldModule, MatInputModule, MatSnackBarModule, MatTableModule
 } from '@angular/material';
 
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -28,7 +30,8 @@ import { Su4dzQgr1yComponent } from './aws/su4dz-qgr1y/su4dz-qgr1y.component';
     MatToolbarModule, MatFormFieldModule, MatInputModule, MatSnackBarModule, MatTableModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
