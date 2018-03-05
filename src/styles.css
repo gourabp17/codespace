@@ -1,5 +1,7 @@
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
-
+body{
+  margin: 0px
+}
 .code::-webkit-scrollbar {
   width: 5px;
   height: 5px;
@@ -20,7 +22,7 @@
     position: relative;
     padding-bottom: 56.2%;
     height: 0;
-    margin: 10px 0 25px 0;
+    margin: 10px 0 50px 0;
     overflow: hidden;
   }
   

@@ -1,11 +1,21 @@
 
 .example-icon {
-    padding: 0 14px;
-  }
+  padding: 0 14px;
+}
   
-  .example-spacer {
-    flex: 1 1 auto;
-  }
-  div{
-    margin: 0px auto;
+.example-spacer {
+  flex: 1 1 auto;
+}
+div{
+  margin: 0px auto;
+}
+a{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(121, 179, 233);
+  background-color: rgb(219, 244, 248);
+  text-decoration: none;
+  font-weight: bold;
 }
