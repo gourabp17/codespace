@@ -11,12 +11,14 @@ import {
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { AwsHomeComponent } from './aws/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AwsHomeComponent
   ],
   imports: [
     BrowserModule,
