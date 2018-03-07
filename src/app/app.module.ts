@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AwsHomeComponent } from './aws/home/home.component';
 import { Su4dzQgr1yComponent } from './aws/su4dz-qgr1y/su4dz-qgr1y.component';
+import { RedirectComponent } from './redirect/redirect.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { Su4dzQgr1yComponent } from './aws/su4dz-qgr1y/su4dz-qgr1y.component';
     HomeComponent,
     AwsHomeComponent,
     Su4dzQgr1yComponent,
+    RedirectComponent,
   ],
   imports: [
     BrowserModule,
