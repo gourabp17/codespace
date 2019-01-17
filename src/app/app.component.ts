@@ -10,4 +10,7 @@ export class AppComponent {
   hello(){
     console.log("Hello world");//changed made by person A1
   }  
+  calculate(x,y){
+    console.log("x + y =", x+y);
+  }
 }
