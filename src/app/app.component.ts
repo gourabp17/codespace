@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  calculate(x,y){
+    console.log("x + y =", x+y);
+  }
 }
