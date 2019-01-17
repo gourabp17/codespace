@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  hello(){
+    console.log("Hello world");//changed made by person A1
+  }  
 }
